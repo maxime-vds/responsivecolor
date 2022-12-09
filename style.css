@@ -13,13 +13,13 @@
     { background-color: green;
         
     }
- body #small { font-size: 60%;
+ body #small { font-size: 0.333em;
 
   }
- body #medium{font-size: 30%;
+ body #medium{font-size: 0.66em;
 
   }
- body #large {font-size: 100%;
+ body #large {font-size: 1em;
 
   }
 
