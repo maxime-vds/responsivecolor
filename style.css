@@ -1,0 +1,24 @@
+
+/*for smartphone */
+@media only screen and (min-width: 300px) 
+ { body { background-color: #ff0000;
+
+ }
+
+} 
+
+/*for tablette*/
+@media only screen and (min-width: 768px) 
+{
+    body { background-color: green;
+
+    }
+} 
+
+/*for desktop*/
+@media only screen and (min-width: 768px) 
+{ body { background-color: blue;
+
+}
+} 
+
