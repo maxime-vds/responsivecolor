@@ -14,12 +14,14 @@
         
     }
  body #small { font-size: 0.333em;
+   display: none;
 
   }
  body #medium{font-size: 0.66em;
 
   }
  body #large {font-size: 1em;
+   display: none;
 
   }
 
