@@ -1,24 +1,43 @@
 
 /*for smartphone */
-@media only screen and (min-width: 300px) 
+@media only screen and (min-width: 0px) 
  { body { background-color: #ff0000;
 
+} 
  }
 
-} 
-
 /*for tablette*/
-@media only screen and (min-width: 768px) 
+@media only screen and (min-width: 300px) and (max-width: 768px) 
 {
-    body { background-color: green;
-
+    body
+    { background-color: green;
+        
     }
+ body #small { font-size: 60%;
+
+  }
+ body #medium{font-size: 30%;
+
+  }
+ body #large {font-size: 100%;
+
+  }
+
 } 
+
 
 /*for desktop*/
 @media only screen and (min-width: 768px) 
-{ body { background-color: blue;
+{ 
+ body { background-color: blue;
+    display: flex;
+    flex-direction: row;
+    }
 
-}
+    body #smal #medium #large{
+        font-size: large;
+     }
+ 
+
 } 
 
